@@ -1,7 +1,6 @@
-// dllmain.cpp : Defines the entry point for the DLL application.
-#include "pch.h"
-
-#include <Windows.h>
+#define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
+// Windows Header Files
+#include <windows.h>
 #include <cstdint>
 #include "c_usercmd.h"
 #include "MinHook/MinHook.h"
